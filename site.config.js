@@ -1,25 +1,26 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
+    name: "Wulabalabo",
+    image: "https://notion-avatar.vercel.app/api/img/eyJmYWNlIjo2LCJub3NlIjoxMiwibW91dGgiOjEzLCJleWVzIjo3LCJleWVicm93cyI6NywiZ2xhc3NlcyI6MCwiaGFpciI6NCwiYWNjZXNzb3JpZXMiOjAsImRldGFpbHMiOjAsImJlYXJkIjoyLCJmbGlwIjowLCJjb2xvciI6InJnYmEoMjU1LCAwLCAwLCAwKSIsInNoYXBlIjoibm9uZSJ9", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "Software Developer",
+    bio: "I WILL TRY ANYTHING ONCE",
+    email: "cyberchenjw@gmail.com",
+    linkedin: "Wulabalabo",
+    github: "Wulabalabo",
     instagram: "",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `Wulabalabo-log`,
+      href: "https://github.com/Wulabalabo/morethan-log",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "Wulabalabo-blog",
+    description: "welcome to Wulabalabo-log!",
+    theme: "auto",
   },
 
   // CONFIG configration (required)
@@ -47,7 +48,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
